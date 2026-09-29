@@ -1,0 +1,8 @@
+name = "warp-config-generator"
+main = "src/worker.mjs"
+compatibility_date = "2026-09-29"
+compatibility_flags = ["no_throw_on_not_implemented_tls_options"]
+
+[observability]
+enabled = true
+head_sampling_rate = 0.1
